@@ -61,6 +61,8 @@ The application uses a database table with the following structure:
 5. **Testing with Postman:**
     Use Postman to test the CRUD operations. Import the provided Postman collection for quick and easy testing.
 
+## Postman Collection
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/31814548-40a2f570-d9ff-451a-a689-338269f7a345?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D31814548-40a2f570-d9ff-451a-a689-338269f7a345%26entityType%3Dcollection%26workspaceId%3Dda2682a5-3d4a-436c-bdae-46c7c302ae98)
 ## API Endpoints
 
 - **POST /user:** 
