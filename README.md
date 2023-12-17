@@ -77,13 +77,13 @@ The application uses a database table with the following structure:
 - **PUT /user/{id}:**
     1. Set up a GET request to your "/healthify/id" endpoint.
     2. Enter Json details new name or calories that is to be edited.
-    ![Screenshot (347)](https://github.com/HARDIK2207/Healthify/assets/84044856/f756c782-5432-42b1-abae-837e5a711021)
-    ![Screenshot (342)](https://github.com/HARDIK2207/Healthify/assets/84044856/8aa3ac4a-9f45-4035-afec-3f0afbccc22c)
+    ![Screenshot (344)](https://github.com/HARDIK2207/Healthify/assets/84044856/103a0c1c-2e7c-4b3e-ba06-bcb50489ceb1)
+    ![Screenshot (343)](https://github.com/HARDIK2207/Healthify/assets/84044856/51b48bd3-c22b-4a85-bb5e-2deb21ed1246)
 
 - **DELETE /user/{id}:**
     1. Delete a user from the database.
-    ![Screenshot (343)](https://github.com/HARDIK2207/Healthify/assets/84044856/51b48bd3-c22b-4a85-bb5e-2deb21ed1246)
-    ![Screenshot (344)](https://github.com/HARDIK2207/Healthify/assets/84044856/103a0c1c-2e7c-4b3e-ba06-bcb50489ceb1)
+    ![Screenshot (347)](https://github.com/HARDIK2207/Healthify/assets/84044856/f756c782-5432-42b1-abae-837e5a711021)
+    ![Screenshot (342)](https://github.com/HARDIK2207/Healthify/assets/84044856/8aa3ac4a-9f45-4035-afec-3f0afbccc22c)
 
 ## Testing
 
