@@ -2,20 +2,6 @@
 
 Healthify is a CRUD application built using the Go language and the Gofr framework. It allows users to track their health-related data, including name, age, and daily calories intake.
 
-<div class="postman-run-button"
-data-postman-action="collection/fork"
-data-postman-visibility="public"
-data-postman-var-1="31814548-40a2f570-d9ff-451a-a689-338269f7a345"
-data-postman-collection-url="entityId=31814548-40a2f570-d9ff-451a-a689-338269f7a345&entityType=collection&workspaceId=da2682a5-3d4a-436c-bdae-46c7c302ae98"></div>
-<script type="text/javascript">
-  (function (p,o,s,t,m,a,n) {
-    !p[s] && (p[s] = function () { (p[t] || (p[t] = [])).push(arguments); });
-    !o.getElementById(s+t) && o.getElementsByTagName("head")[0].appendChild((
-      (n = o.createElement("script")),
-      (n.id = s+t), (n.async = 1), (n.src = m), n
-    ));
-  }(window, document, "_pm", "PostmanRunObject", "https://run.pstmn.io/button.js"));
-</script>
 ## Table of Contents
 
 - [Technologies Used](#features)
@@ -26,7 +12,7 @@ data-postman-collection-url="entityId=31814548-40a2f570-d9ff-451a-a689-338269f7a
 - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
 - [Contributing](#contributing)
-
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://god.gw.postman.com/run-collection/31814548-40a2f570-d9ff-451a-a689-338269f7a345?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D31814548-40a2f570-d9ff-451a-a689-338269f7a345%26entityType%3Dcollection%26workspaceId%3Dda2682a5-3d4a-436c-bdae-46c7c302ae98)
 ## Technologies Used
 Make sure you have the following installed before running the application:
 
