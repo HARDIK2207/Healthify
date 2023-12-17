@@ -77,8 +77,8 @@ The application uses a database table with the following structure:
 - **PUT /user/{id}:**
 
     1. Set up a GET request to your "/healthify/id" endpoint.
-    2. Enter Json details new name or calories that is to be edited.\
-    ![Screenshot (341)](https://github.com/HARDIK2207/Healthify/assets/84044856/0a94b56d-f741-482e-b8a0-b55dd3ec261d)
+    2. Enter Json details new name or calories that is to be edited.
+    ![Screenshot (347)](https://github.com/HARDIK2207/Healthify/assets/84044856/f756c782-5432-42b1-abae-837e5a711021)
     ![Screenshot (342)](https://github.com/HARDIK2207/Healthify/assets/84044856/8aa3ac4a-9f45-4035-afec-3f0afbccc22c)
 
    
@@ -90,6 +90,17 @@ The application uses a database table with the following structure:
 ## Testing
 
 The project includes a Postman collection for testing API endpoints.
+    1. GET
+    ![Screenshot (355)](https://github.com/HARDIK2207/Healthify/assets/84044856/6fab24e0-c4af-4040-ae06-810b428554c5)
+    
+    2. POST
+    ![Screenshot (357)](https://github.com/HARDIK2207/Healthify/assets/84044856/279e9406-7ae5-4f4a-b27f-08e74335f6b4)
+    
+    3. PUT
+    ![Screenshot (349)](https://github.com/HARDIK2207/Healthify/assets/84044856/5a8c3d91-15f2-4188-be8a-c7f11cfa62d8)
+    
+    4. DELETE
+    ![Screenshot (358)](https://github.com/HARDIK2207/Healthify/assets/84044856/9a4b7994-035f-4b0a-b6da-212233528e5b)
 
 ## Contributing
 
