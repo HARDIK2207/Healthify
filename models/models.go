@@ -1,6 +1,6 @@
 package models
 
-type Employee struct {
+type health struct {
 	ID       int    `json:"id"`
 	Name     string `json:"name"`
 	Age      int    `json:"age"`
