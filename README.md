@@ -8,7 +8,9 @@ Healthify is a CRUD application built using the Go language and the Gofr framewo
 - [Features](#features)
 - [Diagrams](#diagrams)
 - [Database Structure](#features)
+- [Enviorment Variables](#Enviorment Variables)
 - [Getting Started](#getting-started)
+- [Postman Collection](#Postman Collection)
 - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
 - [Contributing](#contributing)
@@ -44,6 +46,15 @@ The application uses a database table with the following structure:
 | age      | INT          | User's age                    |
 | calories | INT          | Daily calories intake         |
 
+## Environment Variables
+
+ **Database Configuration:**
+
+   - **DB_HOST:** localhost
+   - **DB_PORT:** 3306
+   - **DB_USER:** root
+   - **DB_PASSWORD:** zopsmart123#
+   - **DB_NAME:** health
 
 ## Getting Started
 
