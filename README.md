@@ -75,7 +75,6 @@ The application uses a database table with the following structure:
     ![Screenshot (356)](https://github.com/HARDIK2207/Healthify/assets/84044856/3819d937-cc7b-4cc0-98a8-a3c833d2fa2c)
 
 - **PUT /user/{id}:**
-
     1. Set up a GET request to your "/healthify/id" endpoint.
     2. Enter Json details new name or calories that is to be edited.
     ![Screenshot (347)](https://github.com/HARDIK2207/Healthify/assets/84044856/f756c782-5432-42b1-abae-837e5a711021)
