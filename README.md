@@ -64,7 +64,7 @@ The application uses a database table with the following structure:
      3. Send the request.
         
         ![addCalories]
-     (https://i.imgur.com/rWTjKct.png)
+     (Screenshots/Screenshot (339).png)
 - **GET /users:**
     1. Set up a GET request to your "/healthify" endpoint.   
 
