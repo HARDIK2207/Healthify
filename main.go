@@ -1,18 +1,55 @@
 package main
 
-import "gofr.dev/pkg/gofr"
+import (
+	"database/sql"
+	"fmt"
+
+	"gofr.dev/pkg/gofr"
+)
+
+type Student struct {
+	ID       int    `json:"id"`
+	Name     string `json:"name"`
+	Age      int    `json:"age"`
+	Calories int    `json:"calories"`
+}
+
+var db *sql.DB
 
 func main() {
-	// initialise gofr object
+	// Connect to your database
+	conn, err := initDatabase()
+	if err != nil {
+		fmt.Println("Error initializing database:", err)
+
+	}
+	//db = conn
+	defer db.Close()
+
 	app := gofr.New()
 
-	// register route greet
-	app.GET("/greet", func(ctx *gofr.Context) (interface{}, error) {
+	app.POST("/healthify/{name}/{age}/{calories}", createStudent)
+	app.GET("/healthify", getAllStudents)
+	app.PUT("/healthify/{id}", updateStudent)
+	app.DELETE("/healthify/{id}", deleteStudent)
 
-		return "Hello World!", nil
-	})
-
-	// Starts the server, it will listen on the default port 8000.
-	// it can be over-ridden through configs
 	app.Start()
+}
+func initDatabase() (*sql.DB, error) {
+
+	host := "localhost"
+	port := "3306"
+	user := "root"
+	password := "zopsmart123#"
+	database := "health"
+
+	dsn := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s", user, password, host, port, database)
+	var err error
+	db, err = sql.Open("mysql", dsn)
+	if err != nil {
+		fmt.Println("error validating sql.open")
+		return nil, err
+	}
+
+	return db, nil
 }
