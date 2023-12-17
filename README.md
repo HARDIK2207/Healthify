@@ -6,6 +6,7 @@ Healthify is a CRUD application built using the Go language and the Gofr framewo
 
 - [Technologies Used](#features)
 - [Features](#features)
+- [Diagrams](#diagrams)
 - [Database Structure](#features)
 - [Getting Started](#getting-started)
 - [API Endpoints](#api-endpoints)
@@ -13,9 +14,7 @@ Healthify is a CRUD application built using the Go language and the Gofr framewo
 - [Testing](#testing)
 - [Contributing](#contributing)
 
-## Technologies Used![Screenshot (339)](https://github.com/HARDIK2207/Healthify/assets/84044856/4ba38f9a-f234-4205-b1d0-71199c59c3cd)
-
-
+## Technologies Used
 Make sure you have the following installed before running the application:
 
 - [Go (Programming Language)](https://golang.org/dl/)
@@ -28,6 +27,11 @@ Make sure you have the following installed before running the application:
 - **Read:** Retrieve and display user data, calculate BMI, and assess calories intake.
 - **Update:** Modify existing entries to keep health information up-to-date.
 - **Delete:** Remove entries for users who no longer need to be tracked.
+
+## Diagrams
+
+**Sequence Diagram** ![Screenshot (350)](https://github.com/HARDIK2207/Healthify/assets/84044856/84d46d16-50ef-4897-8e2d-a0a876956010)
+**Use Case Diagram** 
 
 ## Database Structure
 
