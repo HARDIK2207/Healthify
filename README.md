@@ -62,11 +62,17 @@ The application uses a database table with the following structure:
      1. Open Postman and set up a POST request to the "addCalories" endpoint.
      2. Provide the {healthify/name/age/calories} in the request body.
      3. Send the request.
-     ![addCalories]
-     (https://imgur.com/a/gYqiaGw)
-- **GET /users:** Retrieve a list of all users.
+        
+        ![addCalories]
+     (https://i.imgur.com/rWTjKct.png)
+- **GET /users:**
+    1. Set up a GET request to your "/healthify" endpoint.   
 
-- **PUT /user/{id}:** Update information for a specific user.
+- **PUT /user/{id}:**
+
+    1. Set up a GET request to your "/healthify/id" endpoint.
+    2. Enter Json details new name or calories that is to be edited.
+
 - **DELETE /user/{id}:** Delete a user from the database.
 
 ## Screenshots
