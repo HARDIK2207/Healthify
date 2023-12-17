@@ -31,7 +31,8 @@ Make sure you have the following installed before running the application:
 ## Diagrams
 
 **Sequence Diagram** ![Screenshot (350)](https://github.com/HARDIK2207/Healthify/assets/84044856/84d46d16-50ef-4897-8e2d-a0a876956010)
-**Use Case Diagram** 
+**Use Case Diagram** ![Screenshot (353)](https://github.com/HARDIK2207/Healthify/assets/84044856/2637ac0b-768a-4544-b482-3461732ce885)
+
 
 ## Database Structure
 
@@ -67,9 +68,10 @@ The application uses a database table with the following structure:
      1. Open Postman and set up a POST request to the "addCalories" endpoint.
      2. Provide the {healthify/name/age/calories} in the request body.
      3. Send the request.
-        
-        ![addCalories]
-     ([Screenshots/Screenshot (339).png](https://github.com/HARDIK2207/Healthify/blob/main/Screenshots/Screenshot%20(339).png))
+    ![Screenshot (339)](https://github.com/HARDIK2207/Healthify/assets/84044856/a1d5ceb7-7429-4eb8-a311-50ce7aa82851)
+    ![Screenshot (340)](https://github.com/HARDIK2207/Healthify/assets/84044856/c3a1bf31-6c4c-4547-98ef-44267d4ca1af)
+
+
 - **GET /users:**
     1. Set up a GET request to your "/healthify" endpoint.   
 
