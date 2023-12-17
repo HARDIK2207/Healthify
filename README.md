@@ -73,7 +73,8 @@ The application uses a database table with the following structure:
 
 
 - **GET /users:**
-    1. Set up a GET request to your "/healthify" endpoint.   
+    1. Set up a GET request to your "/healthify" endpoint.
+      
 
 - **PUT /user/{id}:**
 
