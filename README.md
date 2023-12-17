@@ -8,13 +8,13 @@ Healthify is a CRUD application built using the Go language and the Gofr framewo
 - [Features](#features)
 - [Diagrams](#diagrams)
 - [Database Structure](#features)
-- [Enviorment Variables](#Enviorment Variables)
+- [Environment Variables](#EnvironmentVariables)
 - [Getting Started](#getting-started)
-- [Postman Collection](#Postman Collection)
+- [Postman Collection](#PostmanCollection)
 - [API Endpoints](#api-endpoints)
 - [Testing](#testing)
 - [Contributing](#contributing)
-- 
+  
 ## Technologies Used
 Make sure you have the following installed before running the application:
 
