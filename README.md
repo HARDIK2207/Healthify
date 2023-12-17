@@ -10,7 +10,6 @@ Healthify is a CRUD application built using the Go language and the Gofr framewo
 - [Database Structure](#features)
 - [Getting Started](#getting-started)
 - [API Endpoints](#api-endpoints)
-- [Screenshots](#screenshots)
 - [Testing](#testing)
 - [Contributing](#contributing)
 
@@ -71,26 +70,26 @@ The application uses a database table with the following structure:
     ![Screenshot (339)](https://github.com/HARDIK2207/Healthify/assets/84044856/a1d5ceb7-7429-4eb8-a311-50ce7aa82851)
     ![Screenshot (340)](https://github.com/HARDIK2207/Healthify/assets/84044856/c3a1bf31-6c4c-4547-98ef-44267d4ca1af)
 
-
 - **GET /users:**
     1. Set up a GET request to your "/healthify" endpoint.
-      
+    ![Screenshot (356)](https://github.com/HARDIK2207/Healthify/assets/84044856/3819d937-cc7b-4cc0-98a8-a3c833d2fa2c)
 
 - **PUT /user/{id}:**
 
     1. Set up a GET request to your "/healthify/id" endpoint.
-    2. Enter Json details new name or calories that is to be edited.
+    2. Enter Json details new name or calories that is to be edited.\
+    ![Screenshot (341)](https://github.com/HARDIK2207/Healthify/assets/84044856/0a94b56d-f741-482e-b8a0-b55dd3ec261d)
+    ![Screenshot (342)](https://github.com/HARDIK2207/Healthify/assets/84044856/8aa3ac4a-9f45-4035-afec-3f0afbccc22c)
 
-- **DELETE /user/{id}:** Delete a user from the database.
-
-## Screenshots
-
-Include screenshots here to showcase different aspects of your application.
-
+   
+- **DELETE /user/{id}:**
+    1. Delete a user from the database.
+    ![Screenshot (343)](https://github.com/HARDIK2207/Healthify/assets/84044856/51b48bd3-c22b-4a85-bb5e-2deb21ed1246)
+    ![Screenshot (344)](https://github.com/HARDIK2207/Healthify/assets/84044856/103a0c1c-2e7c-4b3e-ba06-bcb50489ceb1)
 
 ## Testing
 
-The project includes a Postman collection for testing API endpoints. Import the collection into Postman for quick and easy testing.
+The project includes a Postman collection for testing API endpoints.
 
 ## Contributing
 
